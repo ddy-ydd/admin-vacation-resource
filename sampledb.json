@@ -1,0 +1,233 @@
+{
+    "users": [
+      {
+        "id": 100,
+        "username": "Daniel",
+        "fullName": "Daniel Yi",
+        "emailid": "daniel.dongho.yi@gmail.com",
+        "password": "1234",
+        "contact": "5626317652"
+      },
+      {
+        "id": 200,
+        "username": "Lily",
+        "fullName": "Lily Ouyang",
+        "emailid": "lily.ouyang@gmail.com",
+        "password": "1234",
+        "contact": "1234567890"
+      },
+      {
+        "id": 201,
+        "username": "Stephen",
+        "fullName": "StephenPark",
+        "emailid": "steven@gmail.com",
+        "password": "1234",
+        "contact": 7678965678
+      },
+      {
+        "id": 202,
+        "username": "Kimberlee",
+        "fullName": "KimberleeNomura",
+        "emailid": "kim@gmail.com",
+        "password": "1234",
+        "contact": 7678965678
+      },
+      {
+        "id": 203,
+        "username": "Simon",
+        "fullName": "Simon",
+        "emailid": "simon@gmail.com",
+        "password": "1234",
+        "contact": 7678965678
+      },
+      {
+        "id": 204,
+        "username": "Jenn",
+        "fullName": "JennVargas",
+        "emailid": "jenn@gmail.com",
+        "password": "1234",
+        "contact": 7678965678
+      },
+      {
+        "id": 205,
+        "username": "Edgar",
+        "fullName": "EdgarVargas",
+        "emailid": "edgar@gmail.com",
+        "password": "1234",
+        "contact": 7678965678
+      },
+      {
+        "id": 206,
+        "username": "Becca",
+        "fullName": "Becca",
+        "emailid": "becca@gmail.com",
+        "password": "1234",
+        "contact": 7678965678
+      },
+      {
+        "id": 207,
+        "username": "Ella",
+        "fullName": "Ella",
+        "emailid": "ella@gmail.com",
+        "password": "1234",
+        "contact": 7678965678
+      },
+      {
+        "id": 208,
+        "username": "Kona",
+        "fullName": "Kona",
+        "emailid": "kona@gmail.com",
+        "password": "1234",
+        "contact": 7678965678
+      },
+      {
+        "id": 209,
+        "username": "Michael",
+        "fullName": "MichaelHuang",
+        "emailid": "michael@gmail.com",
+        "password": "1234",
+        "contact": 7678965678
+      },
+      {
+        "id": 210,
+        "username": "Sara",
+        "fullName": "SaraKim",
+        "emailid": "sara@gmail.com",
+        "password": "1234",
+        "contact": 7678965678
+      }
+    ],
+    "trips": [
+    {
+        "id": "100",
+        "location": "Bishop",
+        "startDate": "9-November-2023",
+        "endDate": "12-November-2023",
+        "occasion": "climbing",
+        "host":
+        {
+            "name": "Eastside Guesthouse and Bivy",
+            "address": {
+                "street": "777 N Main St",
+                "city": "Bishop",
+                "state": "California",
+                "country": "US",
+                "zipcode": 93514
+            },
+            "website": "https://eastsideguesthouse.com/",
+            "contact": "7607847077",
+            "checkIn": "1600",
+            "checkOut": "1100",
+            "code":123456
+        },
+        "carpools": [
+        {
+            "driver": "Daniel",
+            "passengers": [
+                "Lily"
+            ],
+            "equipment": [
+                "Organic crash pad",
+                "Metolius crash pad",
+                "Metolius Short Stop"
+            ]
+        },
+        {
+            "driver": "Edgar",
+            "passengers": [
+                "Jenn",
+                "Michael",
+                "Sara"
+            ],
+            "equipment": [
+                "R3 crash pad",
+                "Metolius crash pad"
+            ]
+        }
+        ]
+    },
+    {
+        "id": "200",
+        "location": "Yucca Valley",
+        "startDate": "9-November-2023",
+        "endDate": "12-November-2023",
+        "occasion": "climbing",
+        "host":
+        {
+            "name": "Beautiful Home HOT TUB & PacMan",
+            "address": {
+                "street": "7929 Barberry Ave",
+                "city": "Yucca Valley",
+                "state": "California",
+                "country": "US",
+                "zipcode": 92284
+            },
+            "website": "",
+            "contact": "",
+            "checkIn": "1500",
+            "checkOut": "1100",
+            "code": 24815
+        },
+        "carpools": [
+        {
+            "driver": "Daniel",
+            "passengers": [
+                "Lily",
+                "Kona",
+                "Ella"
+            ],
+            "equipment": [
+                "Organic crash pad",
+                "Metolius crash pad",
+                "Metolius Short Stop"
+            ]
+        },
+        {
+            "driver": "Michael",
+            "passengers": [
+                "Sara",
+                "Gus"
+            ],
+            "equipment": [
+                ""
+            ]
+        },
+        {
+            "driver": "Stephen",
+            "passengers": [
+                "Becca"
+            ],
+            "equipment": [
+                "Mad Rock duo"
+            ]
+        },
+        {
+            "driver": "Kimberlee",
+            "passengers": [
+                "Simon"
+            ],
+            "equipment": [
+                ""
+            ]
+        }
+        ]
+    }
+    ],
+    "occasions": [
+    {
+        "id": 1,
+        "categoryName": "climbing",
+        "categoryDescription": "climbing outdoors"
+    },
+    {
+        "id": 2,
+        "categoryName": "hiking",
+        "categoryDescription": "hiking on a trail"
+    },
+    {
+        "id": 3,
+        "categoryName": "camping",
+        "categoryDescription": "camping at a campsite"
+    }
+    ]
+}

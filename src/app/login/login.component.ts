@@ -22,7 +22,7 @@ export class LoginComponent {
     let login = this.loginRef.value;
     if (this.loginService.checkLoginDetails(login))
     {
-      this.router.navigate(["home",],{skipLocationChange:true});
+      this.router.navigate(["home"],{skipLocationChange:true});
     }
     else
     {
