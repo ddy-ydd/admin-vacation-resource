@@ -213,7 +213,7 @@
         ]
     }
     ],
-    "occasions": [
+    "category": [
     {
         "id": 1,
         "categoryName": "climbing",

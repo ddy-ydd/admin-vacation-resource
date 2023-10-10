@@ -1,1 +1,19 @@
-<p>category works!</p>
+<head>
+    <link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<div class="container-fluid">
+    <label>Category Name</label><br/>
+    <input type="text"/><br/>
+    <table class = "table">
+        <tr>
+            <th>CID</th>
+            <th>CategoryName</th>
+            <th>CategoryDescription</th>
+        </tr>
+        <tr *ngFor="let category of categories">
+            <td>{{category.id}}</td>
+            <td>{{category.categoryName}}</td>
+            <td>{{category.categoryDescription}}</td>
+        </tr>
+    </table>
+</div>
